@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cab43aae-c2b6-46ed-b96f-9fbee6424fd2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NdcGeneratorScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PharmacyDataFixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/pharmacy_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/PharmacyPortalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/config/DatabaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/DataEntryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/DataReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/InsuranceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/MedicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/NotificationsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/PatientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/PrescriberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/PrescriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/VaccineAppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/DataEntryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/DataReviewDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/FacilityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/FulfillmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/InsuranceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcDataEntryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcDataReviewDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcFacilityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcFulfillmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcInsuranceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcMedicationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcNotificationsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcPatientDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcPrescriberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcPrescriptionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcPrescriptionItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcProductReviewDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/JdbcVaccineAppointmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/MedicationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/NotificationsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/PatientDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/PrescriberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/PrescriptionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/PrescriptionItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/ProductReviewDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dao/VaccineAppointmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/ContactInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/DataEntryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/DataReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/FulfillmentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/InsuranceInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/LoginResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/MedicationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/NotificationsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/PatientDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/PrescriberDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/PrescriptionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/PrescriptionItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/ProductReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/RegisterUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/VaccineAppointmentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/dto/WorkflowRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/exception/DaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/exception/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/ContactInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/DataEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/DataReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Fulfillment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/InsuranceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Insured.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Medication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Notifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/PatientCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Prescriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Prescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/PrescriptionItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/ProductReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/VaccineAppointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/AppointmentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/CaseKind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/DawCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/FacilityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/FulfillmentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/IntakeStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/NotificationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/ProductSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/ProductStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/ReviewStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/RxStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/Sex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/WorkflowStage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/model/enums/WorkflowStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/security/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/security/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/util/NdcGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pharmacy/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="346s2RNz41EEC8GplBYVC3g9kqw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Unknown [clean].executor": "Run",
+    "Maven.Unknown [compile].executor": "Run",
+    "Maven.Unknown [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JOHAN/Documents/Pharmacy-portal/Pharmacy/pom.xml"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab43aae-c2b6-46ed-b96f-9fbee6424fd2" name="Changes" comment="" />
+      <created>1760545149273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760545149273</updated>
+    </task>
+    <servers />
+  </component>
+</project>
